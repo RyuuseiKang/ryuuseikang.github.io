@@ -11,6 +11,10 @@ body {
 
 h1{
   font-size: 52pt;
-  font-family: 'East Sea Dokdo';
+  font-family: 'Montserrat';
   text-align: center;
+}
+
+#Hello{
+  font-style: oblique;
 }
