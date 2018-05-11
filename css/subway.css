@@ -1,4 +1,6 @@
 body{
-    background-image: url('/img/subway-body-background.jpg');
+    width: auto;
+    height: auto;
+    background-image: url("../img/subway-body-background.jpg");
     background-color: #FF1944;
 }
