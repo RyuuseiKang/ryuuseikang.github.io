@@ -1,6 +1,10 @@
 body{
-    background-image: url("../img/subway-body-background.JPG");
+    background: url("../img/subway-body-background.JPG") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
+
     background-color: #FF1944;
 }
