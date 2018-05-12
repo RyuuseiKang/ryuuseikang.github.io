@@ -1,5 +1,6 @@
 body{
-    max-width:100%;
     background-image: url("../img/subway-body-background.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #FF1944;
 }
