@@ -8,6 +8,15 @@ body{
     background-color: #FF1944;
 }
 
+.background-img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-color: #1944FF;
+}
+
 h1{
 
     text-shadow: 0px 0px 10px #000000
