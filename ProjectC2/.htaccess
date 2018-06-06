@@ -1,6 +1,2 @@
-<Files ~ "^\.ht">
-deny from all
-</Files>
-
-# Redirect
-Redirect permanent /http://ryuusei.io/ProjectC2/ https://discord.gg/rzyQXhw/
+RewriteEngine on
+RewriteRule ^old_page.html$ https://discord.gg/rzyQXhw/ [R=301,L]
