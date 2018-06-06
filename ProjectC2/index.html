@@ -2,13 +2,18 @@
 <title>
     ProjectC2 - Discord Group
 </title>
-<script type="text/javascript">
-function Redirect()
-{
-        window.location.href = "https://discord.gg/rzyQXhw";
-}
+<script>
+    $(document).ready(function(){
+        $.ajax({
+            type:"POST",
+            url: "https://discord.gg/rzyQXhw",
+            success: function(data){
+                window.location.href = data.Redirect;
+            }
+        })
+    })
 </script>
-<body onload="Redirect()">
+<body>
       
 </body>
 </html>
