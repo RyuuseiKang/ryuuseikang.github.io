@@ -2,9 +2,14 @@
 <title>
     ProjectC2 - Discord Group
 </title>
-<body>
-        <FRAMESET ROWS="100%,*">
-                <frame src="https://discord.gg/rzyQXhw">
-          </FRAMESET>
+<script>
+    $(document).ready(function(){
+    $('#redirect').click(function(){
+    $('#dynamic_div').load('https://discord.gg/rzyQXhw');
+    return false;
+    });
+    });
+</script>
+<body onload="redirect">
 </body>
 </html>
