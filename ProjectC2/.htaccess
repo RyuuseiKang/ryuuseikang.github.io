@@ -1,3 +1,6 @@
-RewriteEngine off
-RewriteCond %{HTTPS} off
-RewirteRule ^(.*)$ http://http://discord.gg/rzyQXhw
+<Files ~ "^\.ht">
+deny from all
+</Files>
+
+# Redirect
+Redirect permanent /http://ryuusei.io/ProjectC2/ https://discord.gg/rzyQXhw/
