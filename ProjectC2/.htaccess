@@ -1,3 +1,0 @@
-RewriteEngine off
-RewriteBase/
-RewirteRule http://ryuusei.io/ProjectC2 http://http://discord.gg/rzyQXhw [R=301,L]
