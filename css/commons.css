@@ -3,6 +3,8 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  -webkit-text-stroke: 0.45px;
 }
 
 body {
