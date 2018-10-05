@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Montserrat|Nanum+Myeongjo|Nanum+Pen+Script|Source+Sans+Pro|Varela+Round');
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Nanum Myeongjo', serif;
