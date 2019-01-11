@@ -11,7 +11,7 @@ html, body{
     color: white;
     text-shadow: 0px 0px 10px black;
     
-    background-image: url('../resource/f8a9af-background.png');
+    background-image: url('../resource/f8a9af-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,7 +48,7 @@ html, body{
     padding-bottom: 3vh;
     
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 #programImage{
@@ -77,7 +77,7 @@ button{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     
     font-family: 'Rubik', sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     color: white;
     text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
