@@ -10,7 +10,7 @@ var appID = "b77a5c561934e089";
 window.onload = function(){
     var applicationID = getUrlVars()["applicationID"];
     var NowVersion = getUrlVars()["version"];
-    var LastVersion = '2.0.0.0';
+    var LastVersion = '2.0.0.1';
     
     var UpdateDivision = document.getElementById("updateDiv");
     var NoUpdateMessage = document.getElementById("NoUpdateMessage");
