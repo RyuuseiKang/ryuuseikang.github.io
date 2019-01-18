@@ -1,3 +1,3 @@
 function Download(){
-    window.location.assign('https://ryuusei.io/dist/BatteryWidget-Setup.exe');
+    window.location.assign('https://github.com/RyuuseiKang/BatteryWidget/releases/download/1.3.3.7/BatteryWidget-Setup.exe');
 }
