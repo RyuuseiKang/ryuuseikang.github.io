@@ -10,14 +10,7 @@ html, body, #darkness{
     overflow-y: hidden;
 }
 
-html{
-    
-    
-    
-}
-
 body{
-    background: url('../img/IMG_0101.JPG') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
