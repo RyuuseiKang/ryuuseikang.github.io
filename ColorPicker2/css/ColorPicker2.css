@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    
+    background-image: url('../resource/f8a9af-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainFloater{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainContainer{
+    padding: 10vmax;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+    
+    text-align: center;
+}
+
+#programName{
+    padding-bottom: 20px;
+}
+
+.mainContainer h2{
+    margin: 0px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+#programImage{
+    
+}
+
+img{
+    width: 60vmin;
+    max-width: 400px;
+}
+
+#downloadSection{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+button{
+    width: 280px;
+    height: 70px;
+    border: solid;
+    border-width: 5px;
+    
+    background-color: rgba( 255, 255, 255, 0 );
+    border-color: #f8a9af;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    
+    -webkit-transition:background-color 0.3s, -webkit-transform 0.2s;
+    transition:background-color 0.2s, transform 0.2s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba( 0, 0, 0, 0.4 );
+}
+
+button:active{
+    background-color: rgba( 0, 0, 0, 0.2 );
+}
+
+a{
+    
+    font-family: 'Rubik', sans-serif;
+        
+    -webkit-transition:color 0.3s, -webkit-transform 0.2s;
+    transition:color 0.2s, transform 0.2s;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited { 
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+i{
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+p{
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+    
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    
+    font-size: 22px;
+    
+    line-height: 1.3rem;
+}
