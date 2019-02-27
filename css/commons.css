@@ -43,6 +43,7 @@ ul li{
 
 #title{
     font-size: 4rem;
+    font-weight: 700;
     padding-left: 20px;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
@@ -120,4 +121,12 @@ button{
     .projects #MyProjects{
         font-size: 3rem;
     }
+}
+
+/* iPhone X */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : portrait) {
+    /* Styles */
 }
