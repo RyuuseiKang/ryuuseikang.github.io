@@ -72,7 +72,7 @@ ul li{
 
 .projectSection span{
     font-size: 2.5rem;
-
+    font-weight: 700;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s;
