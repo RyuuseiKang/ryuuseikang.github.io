@@ -29,16 +29,12 @@ a:hover{
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0 0 10px 10px;
-    
-    overflow: hidden;
+    padding: 0;
 }
 
 ul li{
-    display: inline;
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
 }
 
 #title{
@@ -64,10 +60,20 @@ ul li{
     transition:font-size 0.3s, transform 0.3s;
 }
 
+.profileSection ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.contactSection li{
+    display: inline;
+    padding-left: 20px;
+}
+
 .projectSection{
     position:absolute;
     bottom: 3.5%;
-    margin: 0 0 0 3.5%;
+    left: 3.5%;
 }
 
 .projectSection span{
@@ -76,6 +82,18 @@ ul li{
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s;
+}
+
+.projectSection a{
+    opacity: 0.5;
+
+    -webkit-transition:opacity 0.3s, -webkit-transform 0.3s;
+    transition:opacity 0.3s, transform 0.3s;
+}
+
+.projectSection a:hover{
+    opacity: 0.9;
+    text-decoration: none;
 }
 
 button{
