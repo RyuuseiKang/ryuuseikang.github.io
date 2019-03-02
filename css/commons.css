@@ -40,6 +40,7 @@ ul li{
 #title{
     font-size: 3.5rem;
     font-weight: 600;
+    letter-spacing: 1px;
 
     float: right;
     clear: both;
@@ -53,7 +54,7 @@ ul li{
 .contactSection{
     float: right;
     letter-spacing: 1px;
-    font-size: 1rem;
+    font-size: 15px;
     margin: 2.5% 3.5% 0 0;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
@@ -71,14 +72,16 @@ ul li{
 }
 
 .projectSection{
-    position:absolute;
-    bottom: 3.5%;
+    position: absolute;
+    bottom: 0;
     left: 3.5%;
+    margin: auto;
 }
 
 .projectSection span{
     font-size: 2.5rem;
     font-weight: 700;
+    letter-spacing: 5px;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s;
@@ -96,6 +99,15 @@ ul li{
     text-decoration: none;
 }
 
+#projectTitle{
+    font-size: 2.3rem;
+}
+
+.darkScreen{
+    background: #353535;
+    opacity: 0.3;
+}
+
 button{
     width: 100%;
     text-align: center;
@@ -105,14 +117,13 @@ button{
 }
 
 /* iPhone SE */
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     #title {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .contactSection {
-        font-size: 1.3rem;
+        font-size: 20px;
     }
-
     .projectSection span{
         font-size: 3rem;
     }
