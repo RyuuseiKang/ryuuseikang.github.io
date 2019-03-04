@@ -124,6 +124,23 @@ button{
     
 }
 
+.projectBackground{
+    margin: 0;
+    padding: 0;
+}
+
+.projectBackground ul{
+    padding: 0;
+    margin: 0;
+}
+
+.projectScreen{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* iPhone SE */
 @media (min-width: 800px) {
     #title {
@@ -137,12 +154,9 @@ button{
     }
 }
 
-footer{height: 200vh; width: 100%;}
-
 #ColorPicker2{
     background-image: url("/ColorPicker2/resource/f8a9af-background.jpg");
-    width: 100%;
-    height: 100%;
+
 }
 
 /*

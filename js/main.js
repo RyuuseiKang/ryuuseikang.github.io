@@ -1,4 +1,4 @@
-$(function() {
+(function() {
     var header = $(".navbar");
 
     $(window).scroll(function() {
