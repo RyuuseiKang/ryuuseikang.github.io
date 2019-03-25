@@ -11,7 +11,7 @@ html, body{
     color: white;
     text-shadow: 0px 0px 10px black;
     
-    background-image: url('../resource/f8a9af-background.jpg');
+    background-image: url('../resource/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

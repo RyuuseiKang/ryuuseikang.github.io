@@ -155,8 +155,13 @@ button{
 }
 
 #ColorPicker2{
-    background-image: url("/ColorPicker2/resource/f8a9af-background.jpg");
+    background-image: url('../ColorPicker2/resource/background.jpg');
+    background-repeat: no-repeat;
+}
 
+#SDVXBatteryWidget{
+    background-image: url('../SDVXBatteryWidget/resource/background.jpg');
+    background-repeat: no-repeat;
 }
 
 /*
