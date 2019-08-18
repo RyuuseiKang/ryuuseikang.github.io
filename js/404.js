@@ -2,7 +2,8 @@ var ImageName = ["IMG_0101",
                  "IMG_0107",
                  "IMG_0108",
                  "IMG_1594",
-                 "IMG_9551"];
+                 "IMG_9551",
+                 "IMG_0036"];
 
 function GoToHomePage(){
     window.location = '/';   
