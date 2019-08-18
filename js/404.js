@@ -11,6 +11,6 @@ function GoToHomePage(){
 }
 
 window.onload = function(){
-    document.body.style.background = "url('img/" + ImageName[Math.floor(Math.random() * 5)] + ".JPG') no-repeat center center fixed";
+    document.body.style.background = "url('img/" + ImageName[Math.floor(Math.random() * 7)] + ".JPG') no-repeat center center fixed";
     document.body.style.backgroundSize = "cover";
 };
