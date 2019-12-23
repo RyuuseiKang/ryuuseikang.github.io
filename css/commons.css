@@ -141,6 +141,7 @@ button{
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /* iPhone SE */
@@ -160,12 +161,14 @@ button{
     background-image: url('../ColorPicker2/resource/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
 }
 
 #SDVXBatteryWidget{
     background-image: url('../SDVXBatteryWidget/resource/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
 }
 
 #Seoulmetro {
