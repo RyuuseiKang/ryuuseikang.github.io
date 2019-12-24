@@ -46,7 +46,7 @@ ul li{
     float: right;
     clear: both;
 
-    margin: 0 3.5% 0 0;
+    margin: 0 1% 0 0;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s;
@@ -84,19 +84,28 @@ ul li{
     margin: auto;
 }
 
-.projectSection span{
-    font-size: 2.5rem;
+.projectSection .projectItem{
+    letter-spacing: 2px;
+
+    -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
+    transition:font-size 0.3s, transform 0.3s, opacity 0.3s;
+}
+
+.projectSection #projectTitle{
+    font-size: 2rem;
     font-weight: 500;
     letter-spacing: 5px;
 
+    padding: 0 0 0 1%;
+
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
-    transition:font-size 0.3s, transform 0.3s;
+    transition:font-size 0.3s, transform 0.3s, opacity 0.3s;
 }
 
 .projectSection a{
     font-size: 2.7rem;
     font-weight: 700;
-    opacity: 0.5;
+    opacity: 0.7;
     color: #FFFFFF;
 
     -webkit-transition:font-size 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -172,7 +181,7 @@ button{
 }
 
 #Seoulmetro {
-    background-image: url("../img/IMG_0037.JPG");
+    background-image: url("../img/IMG_0101.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }
