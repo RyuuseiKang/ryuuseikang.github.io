@@ -85,7 +85,7 @@ ul li{
 }
 
 .projectSection .projectItem{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s, opacity 0.3s;
