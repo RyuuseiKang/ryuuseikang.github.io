@@ -144,6 +144,10 @@ button{
 .projectBackground{
     margin: 0;
     padding: 0;
+
+    overflow: auto;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 .projectBackground ul{
@@ -158,6 +162,8 @@ button{
     padding: 0;
     background-attachment: fixed;
     background-position: center;
+
+    scroll-snap-align: center;
 }
 
 /* iPhone SE */
