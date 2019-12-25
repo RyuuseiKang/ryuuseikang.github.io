@@ -152,7 +152,7 @@ button {
 
 .projectScreen {
     height: 100vh;
-    scroll-snap-align: end;
+    scroll-snap-align: center;
 
     background-attachment: fixed;
     background-position: center;
