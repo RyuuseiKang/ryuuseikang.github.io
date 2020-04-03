@@ -1,3 +1,3 @@
 function Download(){
-    alert('아직 다운로드가 제공되지 않아요.');
+    window.location.assign('https://github.com/RyuuseiKang/ColorPicker2/releases/download/2.0.0.1/ColorPicker2.exe');
 }
