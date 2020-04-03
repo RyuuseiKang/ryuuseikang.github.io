@@ -6,9 +6,7 @@ function getUrlVars() {
     return vars;
 }
 
-var appID = "b77a5c561934e089";
 window.onload = function(){
-    var applicationID = getUrlVars()["applicationID"];
     var NowVersion = getUrlVars()["version"];
     var LastVersion = '2.0.0.1';
     
@@ -22,17 +20,7 @@ window.onload = function(){
     var lastVersion = document.getElementById("lastVersion");
     nowVersion.innerHTML = "Now Version : " + NowVersion;
     lastVersion.innerHTML = "Last Version : " + LastVersion;
-    
-    if(applicationID != appID){
-        UpdateDivision.removeChild(UpdateButton);
-        UpdateDivision.removeChild(NoUpdateMessage);
-        Version.removeChild(nowVersion);
-        Version.removeChild(lastVersion);
-        
-    }else{
-        UpdateDivision.removeChild(UnknownParameter);
-    }
-    
+
     var tmp = 0;    
     var nowVer = NowVersion.split(".");
     for(i in nowVer){
@@ -47,6 +35,18 @@ window.onload = function(){
         tmp += lastVer[i];
     }
     LastVersion = tmp;
+
+
+    if(parseInt(NowVersion / 1000) === 2){
+        UpdateDivision.removeChild(UnknownParameter);
+
+    }else{
+        UpdateDivision.removeChild(UpdateButton);
+        UpdateDivision.removeChild(NoUpdateMessage);
+        Version.removeChild(nowVersion);
+        Version.removeChild(lastVersion);
+    }
+
         
     if(LastVersion > NowVersion){
         UpdateDivision.removeChild(NoUpdateMessage);
