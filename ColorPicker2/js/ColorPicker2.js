@@ -1,3 +1,5 @@
 function Download(){
-    window.location.assign('https://github.com/RyuuseiKang/ColorPicker2/releases/download/2.0.0.1/ColorPicker2.exe');
+    //window.open('/ryuuseikang.github.io/ColorPicker2/download.html');
+    //window.open('/ryuuseikang.github.io/ColorPicker2/download.html', 'newWindow');
+    window.location.assign('/ryuuseikang.github.io/ColorPicker2/download.html');
 }
