@@ -75,11 +75,14 @@ button{
     word-spacing: 3px;
     letter-spacing: 3px;
     
-    -webkit-transition:background-color 0.3s, -webkit-transform 0.2s;
-    transition:background-color 0.2s, transform 0.2s;
+    -webkit-transition:background-color 0.3s, width 0.3s, height 0.3s, -webkit-transform 0.2s;
+    transition:background-color 0.2s, width 0.3s, height 0.3s, transform 0.2s;
 }
 
 button:hover{
     cursor: pointer;
     background-color: rgba( 0, 0, 0, 0.4 );
+
+    width: 290px;
+    height: 80px;
 }
