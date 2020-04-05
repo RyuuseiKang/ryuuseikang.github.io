@@ -70,13 +70,13 @@ ul li {
 
 
 .profileSection ul {
-    list-style-type: none;
-    overflow: hidden;
+    float: right;
 }
 
 .contactSection li {
     display: inline;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .projectSection {
