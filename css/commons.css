@@ -57,7 +57,7 @@ ul li {
 .contactSection {
     right: 3.5%;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 1rem;
 
     -webkit-transition:font-size 0.3s, -webkit-transform 0.3s;
     transition:font-size 0.3s, transform 0.3s;
@@ -161,19 +161,6 @@ ul li {
     text-align: center;
 }
 
-/* iPhone SE */
-@media (min-width: 800px) {
-    #title {
-        font-size: 4.8rem;
-    }
-    .contactSection {
-        font-size: 20px;
-    }
-    .projectSection a{
-        font-size: 3rem;
-    }
-}
-
 #ColorPicker2 {
     background-image: url('../ColorPicker2/resource/background.jpg');
     background-repeat: no-repeat;
@@ -266,7 +253,7 @@ h2 {
 */
 
 /* iPhone X */
-/*
+
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 812px)
@@ -275,10 +262,25 @@ and (orientation : portrait) {
         font-size: 8rem;
     }
     .contactSection {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
-    .projects #MyProjects{
-        font-size: 3.5rem;
+    #projectName{
+        font-size: 5rem;
+    }
+}
+
+
+/* iPhone SE */
+/*
+@media (min-width: 800px) {
+    #title {
+        font-size: 4.8rem;
+    }
+    .contactSection {
+        font-size: 20px;
+    }
+    .projectSection a{
+        font-size: 3rem;
     }
 }
 */
