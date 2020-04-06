@@ -161,6 +161,11 @@ ul li {
     text-align: center;
 }
 
+#projectName {
+    margin: 20px;
+    padding: 20px;
+}
+
 #ColorPicker2 {
     background-image: url('../ColorPicker2/resource/background.jpg');
     background-repeat: no-repeat;
@@ -264,8 +269,9 @@ and (orientation : portrait) {
     .contactSection {
         font-size: 2.5rem;
     }
-    #projectName{
-        font-size: 5rem;
+
+    h2 {
+        font-size: 6rem;
     }
 }
 
